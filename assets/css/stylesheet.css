@@ -37,7 +37,8 @@ body {
 main {
     position: relative;
     top: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 40px;
 }
 
 .content {
@@ -57,10 +58,9 @@ main {
     color: white;
     height:fit-content;
     align-items: center;
-
 }
 
-.form {
+form {
     margin: 0 auto;
     display: block;
     border: 2px solid rgb(39, 47, 55);
@@ -71,6 +71,7 @@ main {
 
 footer {
     position: fixed;
+    height: 40px;
     bottom: 0px;
     left:0;
     right: 0;
